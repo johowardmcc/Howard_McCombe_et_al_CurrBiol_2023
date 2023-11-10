@@ -1,0 +1,8 @@
+genotypename: eigensoft.ped
+snpname:      eigensoft.map
+indivname:    eigensoft.pedind
+outputformat:    EIGENSTRAT
+genooutfilename:   eigensoft.eigenstratgeno
+snpoutfilename:    eigensoft.snp
+indoutfilename:    eigensoft.ind
+familynames:	NO

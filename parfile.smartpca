@@ -1,0 +1,10 @@
+genotypename: eigensoft.eigenstratgeno
+snpname: eigensoft.snp
+indivname: eigensoft.ind
+evecoutname: eigensoft.evec
+evaloutname: eigensoft.eval
+poplistname: eigensoft.poplist.txt
+lsqproject: YES
+numoutevec: 10
+numthreads: 2
+outliermode: 2
