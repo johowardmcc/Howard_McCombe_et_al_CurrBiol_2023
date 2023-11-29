@@ -18,12 +18,11 @@ module load languages/R-3.5.1-ATLAS-gcc-6.1
 export TMPDIR=$HOME/.local
 
 # Set paths to relevant directories
-export WD=/newhome/jh17379/CHAPTER5/6_MOSAIC
+export WD=/user/analysis/mosaic
 
 cd $WD
 
 # Run mosaic
-#Rscript RunMosaic.R
-Rscript RunMosaic2.R
+Rscript RunMosaic.R
 
 echo End time is `date`
