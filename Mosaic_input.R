@@ -1,8 +1,6 @@
-# Aug2021
-
 args = commandArgs(trailingOnly=TRUE)
 chrom=(args[1])
-path1="/newhome/jh17379/CHAPTER5/6_MOSAIC/INPUT2/"
+path1="/user/analysis/mosaic/INPUT/"
 
 if (chrom==1){
 
