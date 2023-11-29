@@ -1,9 +1,0 @@
-Wildcat_Germany
-Wildcat_Portugal
-Wildcat_Scotland
-Hybrid_Scotland
-Domestic_Scotland
-Domestic_MiddleEast
-Domestic_Africa
-Domestic_EuropeUSA
-Domestic_Asia
