@@ -17,7 +17,7 @@ Note: The dataset for this study was produced as part of a wider collaboration (
 Scripts 1-8 detail the pipeline for QC, mapping and genotyping of sampels. These scripts were written for a PBS job scheduler, most are set up to run as array jobs.  Information about the tools needed to run each script are given in the 'Load programs' section.
 
 ### MOSAIC analyses
-Setup for MOSAIC analyses is completed by running mosiac_input.sh and mosaic_rates_file.sh.  The MOSAIC run is controlled by run_mosaic.sh
+Setup for MOSAIC analyses is completed by running mosiac_input.sh and mosaic_rates_file.sh.  The MOSAIC run is controlled by run_mosaic.sh. Note the script required to make the recombination maps, convertrecfile.pl, is from https://github.com/danjlawson/finestructure4
 
 ### Masking domestic introgression
 Domestic ancestry is masked in the VCF file as detailed in masking_domstic_haplotypes.R (using output from MOSAIC for local ancestry estimates).  Haploid masked data (e.g., for GONE analyses) is generated with make_haploid_data.R
